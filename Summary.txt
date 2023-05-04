@@ -1,0 +1,2 @@
+This is a simple Gomoku game developed on the Algorand blockchain. The game logic is implemented as a Stateful Smart Contract using python. Communication to the network server is done using the algorand sdk.
+Two player can submit equal amounts of algo of their choosing to an holding escrow address. This starts the game and players play modified rules of gomoku for all the algo in the escrow address. Every player action is a call to the stateful smart contract.
